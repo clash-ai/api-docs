@@ -32,5 +32,7 @@ curl -X POST not released yet...
 
 You can find code examples in the ``examples`` directory.
 - If you use our code examples, look that you have everything installed:
+**JavaScript**: ``axios``\
+**Python**: ``time`` & ``openai`` / ``requests`` 
 
 > **Note**: We do not own, control or have any affiliation with these companies that own the models.
