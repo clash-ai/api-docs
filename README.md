@@ -24,7 +24,7 @@ Get your API Key
 > **Important**: Make sure you do not reveal your API key to anyone, as it can grant access to your key.
 
 ```
-curl -X POST not released yet...
+curl -X POST https://api.clashai.eu/
 -H "Authorization: Bearer YOUR_API_KEY"
 -H "Content-Type: application/json"
 -d '{"model": "model", "messages": [{"role": "user", "content": "Hi"}, {"role": "system", "content": "Hi GPT"}]}'
