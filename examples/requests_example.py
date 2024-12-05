@@ -1,7 +1,7 @@
 import requests, time
 
 def main():
-    url = 'https://api.clashai.eu/'
+    url = 'https://api.clashai.eu/v1/chat/completions'
 
     payload = {
         "model": "gpt-4o",

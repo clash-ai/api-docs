@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 async function main() {
-    const url = 'https://api.clashai.eu/';
+    const url = 'https://api.clashai.eu/v1/chat/completions';
 
     const payload = {
         model: "gpt-4o",

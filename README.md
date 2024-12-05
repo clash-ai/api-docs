@@ -24,10 +24,10 @@ Get your API Key
 > **Important**: Make sure you do not reveal your API key to anyone, as it can grant access to your key.
 
 ```
-curl -X POST https://api.clashai.eu/
+curl -X POST "https://api.clashai.eu/v1/chat/completions" 
 -H "Authorization: Bearer YOUR_API_KEY"
--H "Content-Type: application/json"
--d '{"model": "model", "messages": [{"role": "user", "content": "Hi"}, {"role": "system", "content": "Hi GPT"}]}'
+-H "Content-Type: application/json" 
+-d "{\"model\": \"gpt-4\", \"messages\": [{\"role\": \"user\", \"content\": \"Hi\"}, {\"role\": \"system\", \"content\": \"Hi GPT\"}]}"
 ```
 
 You can find code examples in the ``examples`` directory.

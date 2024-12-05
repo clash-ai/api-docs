@@ -1,7 +1,7 @@
 import asyncio, time
 from openai import AsyncOpenAI
 
-client = AsyncOpenAI(api_key='YOUR_API_KEY', base_url='https://api.clashai.eu/')
+client = AsyncOpenAI(api_key='YOUR_API_KEY', base_url='https://api.clashai.eu/v1/chat/completions')
 
 async def main():
     start_time = time.time()
